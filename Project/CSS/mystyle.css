@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+.blue {
+  background-color: cornflowerblue;
+  text-align: center;
+  color: #fff;
+}
+/* header */
+.header {
+  padding-top: 28px;
+  padding-bottom: 21px;
+}
+
+/* .section1 */
+
+.banner img {
+  width: 100%;
+  margin-bottom: 65px;
+}
+
+/* section2 */
+.puppy1 img,
+.puppy2 img,
+.puppy3 img,
+.puppy4 img {
+  width: 100%;
+}
+
+.puppy1,
+.puppy2,
+.puppy3,
+.puppy4 {
+  margin-bottom: 45px;
+}
+
+.puppy12,
+.puppy34 {
+  margin: 0 5%;
+}
+
+/* section3 */
+.section3 h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 45px;
+}
+/* footer */
+.footer {
+  padding-top: 65px;
+  padding-bottom: 70px;
+}
+.missing {
+  display: none;
+}
+
+/* media query */
+
+@media (min-width: 768px) {
+  .missing {
+    display: block;
+    height: 180.36px;
+    background-color: crimson;
+    text-align: center;
+    font-size: 30px;
+  }
+  .missing h3 {
+    padding-top: 25px;
+  }
+
+  .puppy12 div {
+    width: 30%;
+  }
+
+  .puppy34 div {
+    width: 45%;
+  }
+
+  .puppy12,
+  .puppy34 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section2,
+  .section3 {
+    width: 668px;
+    margin: 0 auto;
+  }
+  .morepuppies h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+}
